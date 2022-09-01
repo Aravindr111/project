@@ -1,0 +1,154 @@
+*{
+    box-sizing: content-box;
+    background-color: white;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#main{
+    margin: 20px 10px 20px 10px;
+}
+
+.logo{
+    font-family: cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 0 10px 0 30px;
+   
+    
+}
+.head1{
+    text-align: center;
+    text-decoration: underline;
+  
+}
+.head2{
+    text-decoration: underline;
+}
+#img-main{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:10px ;
+    padding: 4px; ;
+    display: inline-block;
+    
+}
+figcaption{
+    text-align: center;
+    text-decoration: underline;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:20px ;
+    left: 47%;
+}
+img{
+    width: 225px;
+    height: 200px;
+    margin: 10px 0 10px 0;
+    padding: 4px 4px 0 4px;
+    transition: transform .5s;
+    border-radius: 10px;
+}
+
+img:hover{
+    
+    transform: scale(1.2);
+    border: 1px solid black;
+    box-shadow:0 0 2px 3px black ;
+  
+    
+}
+
+
+
+.dropbtn {
+   
+   background-color: transparent;
+
+   color: deepskyblue;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    text-decoration: underline;
+    transition: transform .3s;
+  }
+ 
+  .dropdown-content {
+    display: none;
+
+    background-color: transparent;
+    width: 160px;
+   
+  }
+  
+  .dropbtn:hover{
+    transform: scale(1.1);
+    color: slategray;
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow:0 0 2px 3px black ;
+  }
+
+  .dropbtn ,.dropdown-content{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    border: 2px black solid;
+    margin: 0;
+
+  }
+  .dropdown-content a:hover
+   {
+       background-color: white; 
+       
+    }
+    .dropdown:hover .dropdown-content 
+    {
+        display:block;
+        top: 60px;
+        right: 0px;
+    
+  }
+ .logout{
+    background-color: transparent;
+
+    color: deepskyblue;
+     padding: 16px;
+     font-size: 20px;
+     border: none;
+     text-decoration: underline;
+     transition: transform .3s;
+     position: absolute;
+     top: 10px;
+     right: 100px;
+     
+   }
+   .logout:hover{
+    transform: scale(1.1);
+    color: slategray;
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow:0 0 2px 3px black ;
+  }
+
+  
+  
+   
+  
+  
+  
